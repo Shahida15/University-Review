@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family-Poppins:wight@300;400;500;600;700;800;900%display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:rooti{
+    --primary-font-family:"poppins",sans-serif;
+    --light-white: white;
+    --gray: gray;
+    --gray-1: #e3e3e3;
+}
+body{
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+.weapper{
+    padding: 0 0 100px;
+    background-image: url(images/bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-width: 100%;
+
+
+}
+.weapper .logo img{
+    max-width: 40%;
+}
+
+.weapper input{
+    background-color:var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.weapper input:focus{
+    box-shadow: none;
+}
+.weapper .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+}
+.weapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.weapper .submit_btn:focus,.weapper .login_with:focus{
+    box-shadow: none;
+}
+
+.weapper .login_with:hover{
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+<!-- login -->
+    <a
+class="btn btn-primary px-3 mr-1" 
+style="background-color: #3b5998;" 
+href="#!" 
+role="button">
+  <i class="fab fa-facebook-f"></i>
+</a>
+}
+.weapper .login_with img{
+    max-width: 8%;
+}
